@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/script2.js"></script>
-        <link rel="stylesheet" href="css/styl.css"/>
+        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="stylesheet" href="css/style.css"/>
         <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
     </head>
     <body>

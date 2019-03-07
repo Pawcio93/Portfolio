@@ -14,14 +14,14 @@ function updateHeight2()
     var width = 0.7262*div.width();
     div.css('height', width);
 }
-$(document).ready(function(){
-    $(".hobby").on('click', function(){
+
+var chooseHobby = function()
+{
     $(this).addClass('hobbyOnClick').removeClass('hobby firstInLine hobbyImg');
     $('.hobbyImg').hide();
     $('.hobby').css('display', 'none');
-    //$('#sport').append("<p>test</p>");
     updateHeight2();
-    
+
     var id = this.id;
 
     if (id == 'sport')
@@ -63,8 +63,18 @@ $(document).ready(function(){
               alert("economy");
         }
 
-
-
+$("#cancel").bind("click", function()
+{
+   alert("function start");
+   $(".hobby").unbind("click", chooseHobby);
 });
-    $(".hobby").css("cursor", "pointer");
+
+
+};
+
+$(document).ready(function()
+{
+    $(".hobby").bind('click', chooseHobby);
+ 
+
 });

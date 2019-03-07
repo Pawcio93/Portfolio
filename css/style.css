@@ -95,6 +95,7 @@ article {
   height: 0;
   width: 20%;
   background-color: #FFFFFF;
+  cursor: pointer;
 }
 
 .hobbyOnClick {
@@ -129,8 +130,9 @@ article {
 
 #cancel {
   font-size: 1.5em;
+  cursor: pointer !important;
   color: #FFFFFF;
-  padding-top: 5%;
+  margin-top: 5%;
   margin: auto;
   width: 12%;
   height: 5%;
@@ -178,4 +180,4 @@ article {
   background-color: #000000;
 }
 
-/*# sourceMappingURL=styl.css.map */
+/*# sourceMappingURL=style.css.map */

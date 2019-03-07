@@ -107,7 +107,7 @@ article
 }
 
 .hobby
-{ 
+{  
  border: 5px solid $goldColor;   
  margin: 10% 5% 5% 5%;
  float: left;
@@ -115,6 +115,7 @@ article
  height: 0;
  width: 20%;
  background-color: $whiteColor; 
+ cursor: pointer;
 }
 
 .hobbyOnClick
@@ -154,8 +155,9 @@ height: 60%;
  #cancel
  {
      font-size: 1.5em;  
+     cursor: pointer !important;
      color: $whiteColor; 
-     padding-top: 5%;
+     margin-top: 5%;
      margin: auto;
      width: 12%;
      height: 5%;
